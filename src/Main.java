@@ -38,7 +38,7 @@ public class Main {
                 emptyList.addAll(calPList.stream().filter(calP -> calP.getYear() == array[finalI]).collect(Collectors.toList()));
         }
         System.out.println(System.nanoTime() - time2);
-
+//
         for (CalP cc : emptyList)
             System.out.println(cc);
 
